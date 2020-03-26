@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgb(255, 68, 122);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 200%;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("pictures/WhatsApp Image 2020-03-20 at 8.20.04 PM.jpeg");}
+  .img2 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-20\ at\ 8.28.57\ PM.jpeg"); }
+  .img3 { background-image: url("pictures/WhatsApp Image 2020-03-24 at 12.31.22 AM.jpeg"); }
+  .img4 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-16\ at\ 2.02.43\ PM.jpeg"); }
+  .img5 { background-image: url("pictures/WhatsApp Image 2020-03-24 at 12.31.22 AM (1).jpeg"); }
+  .img6 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-20\ at\ 2.18.36\ PM.jpeg"); }
+  .img7 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-01\ at\ 1.03.48\ AM.jpeg"); }
+  .img8 { background-image: url("pictures//WhatsApp\ Image\ 2020-02-24\ at\ 1.58.50\ AM.jpeg"); }
+  .img9 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-01\ at\ 1.19.42\ AM.jpeg"); }
+  .img10 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-21\ at\ 3.24.32\ PM.jpeg"); }
+  .img11 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-20\ at\ 8.39.51\ PM.jpeg"); }
+  .img12 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-20\ at\ 10.12.35\ PM.jpeg"); }
+  .img13 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-19\ at\ 7.32.25\ PM.jpeg"); }
+  .img14 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-20\ at\ 4.54.50\ PM.jpeg"); }
+  .img15 { background-image: url("pictures/WhatsApp\ Image\ 2020-03-19\ at\ 7.31.36\ PM.jpeg"); }
+  .img16 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.18\ PM.jpeg"); }
+  .img17 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.19\ PM.jpeg"); }
+  .img18 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.20\ PM.jpeg"); }
+  .img19 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.20\ PM\ \(1\).jpeg"); }
+  .img20 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.21\ PM.jpeg"); }
+  .img21 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.21\ PM\ \(1\).jpeg"); }
+  .img22 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.22\ PM.jpeg"); }
+  .img23 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.22\ PM\ \(1\).jpeg"); }
+  .img24 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.24\ PM\ \(1\).jpeg"); }
+  .img25 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.23\ PM\ \(1\).jpeg"); }
+  .img26 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.24\ PM.jpeg"); }
+  .img27 { background-image: url("pictures/LosDos/WhatsApp\ Image\ 2020-02-29\ at\ 7.02.23\ PM.jpeg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 5px solid #f1f1f1;
+    position: relative; /* Stay fixed*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 600px;
+    padding: 20px;
+    text-align: center; 
+
+  }
+
+  .parallax {
+    /* The image used 
+    
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  
